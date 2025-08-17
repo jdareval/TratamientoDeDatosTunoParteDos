@@ -67,7 +67,7 @@ def lookup_hash(file_hash: str):
         "hash": file_hash,
         "message": "El hash no fue encontrado en la base de datos de amenazas."
     }
-# Endpoint que esta contenido en  la nueva rama.
+# Endpoint que esta contenido en  la nueva rama permite verificar si el dominio es malicioso.
 @app.get("/api/lookup/domain/{domain_name}", status_code=status.HTTP_200_OK)
 def lookup_domain(domain_name: str):
     """
