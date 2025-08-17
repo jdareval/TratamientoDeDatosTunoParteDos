@@ -67,3 +67,23 @@ def lookup_hash(file_hash: str):
         "hash": file_hash,
         "message": "El hash no fue encontrado en la base de datos de amenazas."
     }
+# Endpoint que esta contenido en  la nueva rama.
+@app.get("/api/lookup/domain/{domain_name}", status_code=status.HTTP_200_OK)
+def lookup_domain(domain_name: str):
+    """
+    Busca un nombre de dominio en la base de datos de amenazas.
+    """
+    threat_info = KNOWN_MALICIOUS_DOMAINS.get(domain_name.lower())
+    
+    if threat_info:
+        return {
+            "status": "known_malicious",
+            "domain": domain_name,
+            "threat_info": threat_info
+        }
+        
+    return {
+        "status": "clean",
+        "domain": domain_name,
+        "message": "El dominio no fue encontrado en la base de datos de amenazas."
+    }
