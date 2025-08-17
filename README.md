@@ -9,6 +9,7 @@ Este repositorio contiene una API de prueba que permite LA BUSQUEDA DE INDICADOR
 -----------------------------------------------------------------------
 ![alt text](image.png)
 
+![alt text](image-12.png)
 -----------------------------------------------------------------------
 # primera prueba se envia la petición a la API MEDIANTE EL CODIGO
 -----------------------------------------------------------------------
