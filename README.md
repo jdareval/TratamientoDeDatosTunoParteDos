@@ -5,7 +5,7 @@
 -----------------------------------------------------------------------
 ### INTRODUCCIÓN
 -----------------------------------------------------------------------
-Este repositorio contiene el codigo fuente de una API RESRful de prueba que permite LA BUSQUEDA DE INDICADORES DE COMPROMISO (IOC). Esta API simula un microservicio de inteligencia de amenazas, permitiendo consultar a los ususarios si un ![hash](https://img.shields.io/badge/Estado-En%20Desarrollo-orange) de archivo o un nombre de *Dominio* son conocidos por ser maliciosos.
+Este repositorio contiene el codigo fuente de una API RESRful de prueba que permite LA BUSQUEDA DE INDICADORES DE COMPROMISO (IOC). Esta API simula un microservicio de inteligencia de amenazas, permitiendo consultar a los ususarios si un ![hash](https://img.shields.io/badge/%20hash-orange) de archivo o un nombre de *Dominio* son conocidos por ser maliciosos.
 
 ------------------------------------------------------------------------
 ### FUNCIÓN PRINCIPAL
@@ -14,10 +14,10 @@ La **API** funciona utilizando una simulacion de base de datos en memoria, en la
 
 -------------------------------------------------------------------------
 El desarrollo se ha gestionado siguiendo un flujo de trabajo en ramas:
-**main** Contiene la version estable de la ![API](https://img.shields.io/badge/Estado-En%20Desarrollo-orange) incluyendo elendpoint principalpara la busqueda de *hashes* 
+**main** Contiene la version estable de la ![API](https://img.shields.io/badge/%20API-orange) incluyendo elendpoint principalpara la busqueda de *hashes* 
 **feature/domain-lookup** Es una rama de funcionalidad donde se desarrolló y probó de forma aislada el endpoint para la busqueda de dominios.
 -------------------------------------------------------------------------
- 
+
 -------------------------------------------------------------------------
 # PRUEBA LOCAL DE LA API
 -----------------------------------------------------------------------
