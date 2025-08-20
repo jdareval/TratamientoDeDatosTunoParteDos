@@ -2,9 +2,23 @@
 # REPOSITORIO DE LA API TAREA 1 PARTE DOS
 -----------------------------------------------------------------------
 
-Este repositorio contiene una API de prueba que permite LA BUSQUEDA DE INDICADORES DE COMPROMISO (IOC). El repositorio esta dividido en dos ramas una main principal y una segunda rama llamda **feature/domain-lookup**
-
 -----------------------------------------------------------------------
+### INTRODUCCIÓN
+-----------------------------------------------------------------------
+Este repositorio contiene el codigo fuente de una API RESRful de prueba que permite LA BUSQUEDA DE INDICADORES DE COMPROMISO (IOC). Esta API simula un microservicio de inteligencia de amenazas, permitiendo consultar a los ususarios si un ![hash](https://img.shields.io/badge/Estado-En%20Desarrollo-orange) de archivo o un nombre de *Dominio* son conocidos por ser maliciosos.
+
+------------------------------------------------------------------------
+### FUNCIÓN PRINCIPAL
+------------------------------------------------------------------------
+La **API** funciona utilizando una simulacion de base de datos en memoria, en la cual se utiliza un diccionario de python donde se contiene todas las amenzas predefinidas. Cada endpoints disponibles permiten realizar una busqueda individual de la información comparando los datos proporcionados (hashes o dominios) contra la base de datos simulada para determinar si un indicador es malicioso.
+
+-------------------------------------------------------------------------
+El desarrollo se ha gestionado siguiendo un flujo de trabajo en ramas:
+**main** Contiene la version estable de la ![API](https://img.shields.io/badge/Estado-En%20Desarrollo-orange) incluyendo elendpoint principalpara la busqueda de *hashes* 
+**feature/domain-lookup** Es una rama de funcionalidad donde se desarrolló y probó de forma aislada el endpoint para la busqueda de dominios.
+-------------------------------------------------------------------------
+ 
+-------------------------------------------------------------------------
 # PRUEBA LOCAL DE LA API
 -----------------------------------------------------------------------
 ![alt text](image.png)
