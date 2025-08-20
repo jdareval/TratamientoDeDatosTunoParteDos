@@ -10,7 +10,7 @@ Este repositorio contiene el codigo fuente de una API RESRful de prueba que perm
 ------------------------------------------------------------------------
 ### FUNCIÓN PRINCIPAL
 
-La **API** funciona utilizando una simulacion de base de datos en memoria, en la cual se utiliza un diccionario de python donde se contiene todas las amenzas predefinidas. Cada endpoints disponibles permiten realizar una busqueda individual de la información comparando los datos proporcionados ![hashes o dominios](https://img.shields.io/badge/%20hashes o dominios-orange) contra la base de datos simulada para determinar si un indicador es malicioso.
+La **API** funciona utilizando una simulacion de base de datos en memoria, en la cual se utiliza un diccionario de python donde se contiene todas las amenzas predefinidas. Cada endpoints disponibles permiten realizar una busqueda individual de la información comparando los datos proporcionados ![hashes o dominios](https://img.shields.io/badge/%20hashesodominios-orange) contra la base de datos simulada para determinar si un indicador es malicioso.
 -------------------------------------------------------------------------
 -------------------------------------------------------------------------
 El desarrollo se ha gestionado siguiendo un flujo de trabajo en ramas:
